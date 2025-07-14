@@ -3,6 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #2090b1;
+  --primary-rgb: 32, 144, 177;
+  --primary-dark: #023245;
+  --primary-dark-rgb: 2, 50, 69;
+  --secondary: #043053;
+  --secondary-rgb: 4, 48, 83;
+  --accent: #28edd6;
+  --accent-rgb: 40, 237, 214;
+  --danger: #ed3c28;
+  --danger-rgb: 237, 60, 40;
+  --dark-bg: #011218;
+  --dark-bg-rgb: 1, 18, 24;
+  --green: #3cb043;
 }
 
 @theme inline {
@@ -12,10 +25,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 

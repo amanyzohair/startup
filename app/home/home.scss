@@ -1,0 +1,86 @@
+.banner {
+  background: url("../assets/images/banner-1.webp") bottom no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 80vh;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .overlay {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 40%;
+    background-color: rgba($color: #fff, $alpha: 0.2);
+    backdrop-filter: blur(6px);
+    border-radius: 30px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 20px rgba($color: #555, $alpha: 0.2);
+    .banner-title {
+      font-size: 3.5rem;
+      text-shadow: 2px 2px 20px rgba($color: #000, $alpha: 0.2);
+      color: rgba($color: var(--secondary-rgb), $alpha: 0.7);
+    }
+    .banner-title-2 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 20px rgba($color: #000, $alpha: 0.2);
+    }
+    .banner-text {
+      font-size: 2rem;
+      text-shadow: 2px 2px 20px rgba($color: #000, $alpha: 0.2);
+      font-weight: 600;
+      color: #fefefe;
+    }
+    // background-image: -moz-linear-gradient(
+    //   132.6deg,
+    //   rgba(var(--secondary-rgb), 0.5) 23.3%,
+    //   rgba(var(--primary-rgb), 0.5) 84.7%
+    // );
+    // background-image: -webkit-linear-gradient(
+    //   132.6deg,
+    //   rgba(var(--secondary-rgb), 0.5) 23.3%,
+    //   rgba(var(--primary-rgb), 0.5) 84.7%
+    // );
+
+    // background-image: linear-gradient(
+    //   132.6deg,
+    //   rgba(var(--secondary-rgb), 0.5) 23.3%,
+    //   rgba(var(--primary-rgb), 0.5) 84.7%
+    // );
+  }
+}
+.banner.banner-2 {
+  background: url("../assets/images/banner-2.webp") center no-repeat;
+  background-size: cover;
+}
+.estimate-btn {
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  word-spacing: 0.3rem;
+  font-weight: 600;
+  background-image: -moz-linear-gradient(
+    132.6deg,
+    rgba(var(--primary-rgb), 0.5),
+    rgba(var(--secondary-rgb), 1)
+  );
+  background-image: -webkit-linear-gradient(
+    132.6deg,
+    rgba(var(--primary-rgb), 0.5),
+    rgba(var(--secondary-rgb), 1)
+  );
+  background-image: linear-gradient(
+    132.6deg,
+    rgba(var(--primary-rgb), 0.5),
+    rgba(var(--secondary-rgb), 1)
+  );
+}
