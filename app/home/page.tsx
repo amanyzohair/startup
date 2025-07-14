@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import IMAGES from "../assets/images";
 import Carousel from "../shared/carousel/carousel";
 import "./home.scss";
+
+export const metadata: Metadata = {
+  title: "Home | Phoenix",
+  description: "Best Cleaning Service in Toronto",
+};
 
 const Home = () => {
   const SLIDES = [
