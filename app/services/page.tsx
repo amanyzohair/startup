@@ -12,7 +12,7 @@ const Services = async () => {
     <Link
       href={"/services/" + item.title.replace(/\s+/g, "-")}
       key={item.title}
-      className="img-holder"
+      className="img-holder shadow-2xl"
     >
       {item.image ? (
         <>
